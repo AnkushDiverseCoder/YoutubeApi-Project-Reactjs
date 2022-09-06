@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Box } from '@mui/material'
-import './App.css';
 
 //////////////////////////////// COMPONENTS  //////////////////////////////////
 import { Navbar, Feed, VideoDetails, ChannelDetails, SearchDetails } from './components'
@@ -8,7 +7,7 @@ import { Navbar, Feed, VideoDetails, ChannelDetails, SearchDetails } from './com
 function App() {
   return (
     <BrowserRouter>
-      <Box sx={{ backgroundColor: '#000', color: 'white' }}>
+      <Box sx={{ backgroundColor: '#000'}}>
         {/******************************************** NAVBAR ************************************/}
         <Navbar />
         <Routes>
